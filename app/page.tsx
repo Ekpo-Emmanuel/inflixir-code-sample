@@ -414,7 +414,7 @@ export default function Home() {
                   <div className="space-y-4">
                     {[1, 2, 3].map((i) => (
                       <Card key={i} className="p-4">
-                        <div className="flex items-center justify-between gap-5">
+                        <div className="flex flex-col md:items-center md:justify-between gap-5">
                           <div className="flex items-center gap-4">
                             <img
                               alt="Influencer avatar"
